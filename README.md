@@ -7,6 +7,14 @@ yoru knowledge of ActiveRecord. Each directory contains a README with an abstrac
 description of the problem. Where possible, the directory will contain a template
 test script that exercises your code.
 
+## What kind of exercises?
+
+At the moment, these exercises are focussed on associations and model structure, rather than
+querying, validations, or any of the other parts of ActiveRecord. The reason for this is that
+understanding how models work and how they relate to one another covers off a lot of what a
+developer new to ActiveRecord needs to get started. It also focusses on data and database modelling,
+which is a useful skill to develop regardless of which language or framework is being used.
+
 ## What do I need to get started?
 
 You'll need a Ruby environment. I recommend the latest stable version of Ruby, which at
