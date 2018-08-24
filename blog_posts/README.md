@@ -1,6 +1,6 @@
 # Blog Posts
 
-## Situation:
+## Scenario:
 
 Your application represents a blog. You wish to be able to write
 posts containing a title, and content. Once you have posts in your database,
