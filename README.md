@@ -36,6 +36,26 @@ you have in mind to prototype it before you get stuck into code.
 If you're starting out at a company, you may want to pair with a more experienced developer
 if you're stuck. There may also be some reference code you can use for inspiration available!
 
+## How do I know when I have completed exercises?
+
+Each task specifies acceptance criteria. You can use these to decide if you have
+satisfied the requirements. Some exercises also include automated tests. 
+
+#### Running the automated tests:
+
+The automated tests are written to demonstrate the core acceptance criteria, without
+extensions. When you generate anew Rails application, you will see a `test` directory. Simply drop the `exercise_test.rb` file inside that directory and run `rake test` to see if the tests pass. Rails may prompt you to set up your database before the tests can be run.
+
+Here is an example of commands used to run the tests for the first exercise:
+
+* `cd blog_posts`
+* `rails new blog --database=sqlite3 --skip-sprockets`
+* `cp exercise_test.rb blog/test/`
+* `cd blog`
+* `rails db:create:all db:migrate test`
+
+If you follow these steps, you'll get failing tests - that's good! You can now add your own code to get the tests passing.
+
 ## Can I use these exercises?
 
 Sure! Check out `LICENSE` for details on any and all conditions attached to usage.
