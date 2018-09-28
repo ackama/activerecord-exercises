@@ -4,7 +4,7 @@ Questionnaire
 ## Scenario:
 
 Hey quizmaster! You are creating an application to allow the completion of questionnaires.
-Questionnaires have one or more multichoice questions. They shouldhave a title, some content 
+Questionnaires have one or more multichoice questions. They should have a title, some content 
 (to explain the question), and a number of answers available. 
 Users respond to questions by selecting an answer.
 
