@@ -6,8 +6,8 @@
 > of this situation are highlighted in **bold**.
 
 Your application represents a blog. You wish to be able to write
-posts containing a title, and content. You also want to add a category to your
-blog posts to make it easier to present different types of content in different ways.
+posts containing a title, and content. **You also want to add a category to your
+blog posts to make it easier to present different types of content in different ways.**
 
 
 ## Acceptance Criteria:
