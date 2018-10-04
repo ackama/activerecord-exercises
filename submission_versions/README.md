@@ -24,13 +24,15 @@ In a Rails console I can:
 - Mark the submission has marked the correct version as published
 - Collect published content across a range of submissions
 
+## Extensions
+
 > Extensions represent additional tasks you can complete if you would like to try out a few more
 > things. The acceptance criteria does not have tests included, but you are welcome to write them 
 > to the test file yourself.
 
 If you have completed the primary acceptance criteria, you technically can support drafts very easily. Complete the support for drafts by adding ActiveRecord scopes and helpers to support being able to look up the latest draft that has not necessarily been published.
 
-## Acceptance criteria:
+### Acceptance criteria:
 
 * Given a submission exists with an initial version, and another version that is published
 * When a new version is created, but not published
@@ -41,7 +43,7 @@ If you have completed the primary acceptance criteria, you technically can suppo
 
 Consider migrations in Rails - the migration files have a timestamp, but can be migrated or rolled back using a "STEP" environment variable. Add support for looking up versions of submission content using a similar mechanism - for example, allow finding the version based on an index from the current version, rather than a timestamp. This is quite easy to do using Ruby, but harder to do using a database query.
 
-## Acceptance criteria:
+### Acceptance criteria:
 
 * Given a submission with 10 versions exists, with the 5th submission being the published one
 * When a submission with a step of -2 is passed in
@@ -58,7 +60,7 @@ creating a new version of the content for a submission without having to resort 
 you're not too sure how to go about this, consider it an opportunity to pair with
 another developer.
 
-## Acceptance criteria:
+### Acceptance criteria:
 
 * Given a submission is being created
 * And `accepts_nested_attributes` is not being used
